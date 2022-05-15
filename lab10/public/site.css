@@ -1,0 +1,93 @@
+* {
+	box-sizing: content-box;
+}
+
+html,
+body {
+	font-size: 14pt;
+}
+
+
+body {
+	background: whitesmoke;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+	max-width: 75%;
+	margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color : purple;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+dt{
+    color:salmon;
+    font-weight: bolder;
+}
+
+dd{
+    font-weight: 200;
+}
+
+dd{
+    color: midnightblue;
+}
+
+.error{
+    color: red;
+    font-weight: bolder;
+}
+
+.logout{
+    color:black;
+    font-weight: bolder;
+}
+
+button{
+    color :black;
+    background-color:yellow;
+}
+
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+	font-weight: bold;
+}
+
+
+a:hover {
+    font-style: italic;
+    color: hotpink;
+  }
+
+  a:visited {
+    font-style: bolder;
+    color: green;
+  }
+
+  #login-form{
+    background-color: darkturquoise;
+    width: 400px;
+    border: 4px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #signup-form{
+    background-color: salmon;
+    width: 400px;
+    border: 4px solid black;
+    padding: 50px;
+    margin: 20px;
+  }

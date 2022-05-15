@@ -1,0 +1,22 @@
+<main>
+    {{!-- <h1>Login</h1> --}}
+    <div>
+        <form id="login-form" action="/login" method="POST">
+        <label>
+            Username
+            <input id="username" name="username" placeholder="Username"/>
+        </label><br>
+        <label>
+            Password
+            <input id="password" type="password" name="password" placeholder="Password"/>
+        </label><br>
+        <button type="submit" id="btn-id">Submit</button><br>
+        </form><br>
+        <br>
+        <a href="/signup">Need to register? Click here to sign-up</a>
+    </div>
+ 
+    <div id="error-div">
+        <p class="error">{{message}}</p>
+    </div>
+</main>

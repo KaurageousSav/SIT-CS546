@@ -1,0 +1,29 @@
+body {
+	font-size: 14pt;
+    background-color:rgb(240, 238, 224);
+}
+h1 {
+	color: rgb(34, 34, 34);
+	margin-bottom: 5px;
+}
+h2{
+    color: green;
+    text-decoration: underline;
+}
+p{
+    color: salmon;
+    font-size: 12.5pt;
+
+}
+div{
+    color: forestgreen;
+    font-size:medium;
+    font-weight: bold;
+}
+a{
+    color: blueviolet;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

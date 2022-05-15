@@ -1,0 +1,16 @@
+<main>
+  <div>
+  <h1>{{test.name}}</h1>
+  {{#if demo}}
+  <img class="imgbox" src="{{demo}}" alt="{{test.name}}" />
+  {{/if}}
+  <p>{{test.description}}</p>
+  <h2>Comics</h2>
+  <ul>
+        {{#each arr}}
+        <li>{{this.name}}</li>
+        {{/each}}
+      </ul>
+</div>
+
+</main>

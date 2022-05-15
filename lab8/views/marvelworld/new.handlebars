@@ -1,0 +1,17 @@
+ <div class="center">
+ <h1>Character Finder</h1>
+ <main>
+     <p>Welcome to the Character Finding page. Marvel universe is full of amazing super heros which are pretty much like the most of us! Using this page, you can search for your favorite character of the Marvel Universe by typing into the searh bar.</p>
+     <form action="/search" method = "POST" class="form-class">
+     <label>
+         {{test.name}}
+         <input type="text" name="title" placeholder="SearchTerm" value="{{test.name}}"
+         class="full-width-input"/>
+     </label>
+        <button type="Submit">Search</button>
+     </form>
+     {{#if hasErrors}}
+     <p class="{{className}}">{{message}}</p>
+     {{/if}}
+</main>
+</div>

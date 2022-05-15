@@ -1,0 +1,23 @@
+{{!-- <title>Login</title> --}}
+<main>
+    <div>
+        <form id="signup-form" action="/signup" method="POST">
+        <label>
+            Username
+            <input id="username" name="username" placeholder="Username"/>
+        </label> <br>
+        <label>
+            Password
+            <input id="password" type="password" name="password" placeholder="Password"/>
+        </label><br>
+        <button type="submit" id="btn-id">Submit</button><br>
+        <br>
+        <a href="/">Already have an account? Click here to log-in</a>
+        </form>
+    </div>
+    {{#if checkErrors}}
+    <div id="error-div">
+        <p class="error">{{message}}</p>
+    </div>
+    {{/if}}
+</main>

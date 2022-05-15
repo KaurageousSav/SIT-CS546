@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab4",
+  "version": "1.0.0",
+  "description": "This is for CS 546 Lab 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "SAVLEEN KAUR 10476867",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.7.1"
+  }
+}

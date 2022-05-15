@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <title>Palindrome Checking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+ 
+<body>
+    <header>
+        <h1>Palindrome Checking</h1>
+    </header>
+    <form id="palindrome-form" method="POST">
+        <label for="palindrome-id">
+            Name
+        </label>
+        <textarea name="palindrome-index" id="palindrome-id" placeholder="Enter the text for checking Palindrome"></textarea> 
+        <button type="submit" id="btn-submit">Submit</button>
+    </form>
+ 
+    <div class="div-result">
+        <ol id="attempts">
+        </ol>
+    </div>
+ 
+    <div class="error" id="error-id" hidden>
+    </div>
+ 
+ 
+    <footer id="footer">
+        <h6>Savleen Kaur 10476867, Web Programming-1</h6>
+    </footer>
+    <script src="/public/js/palindrome.js"></script>
+</body>
+ 
+</html>
